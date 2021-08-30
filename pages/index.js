@@ -50,7 +50,8 @@ export default function Home() {
         src="https://www.google.co.il/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png"
         height={100}
         width={300}
-        alt=""
+        alt="google logo"
+        
         />
         <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md rounded-full border border-gray-200 px-5 py-3 items-center sm:max-w-xl lg:max-w-2xl">
           <SearchIcon className="h-5 mr-3 text-gray-500"/>
@@ -60,7 +61,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4">
           <button onClick={search} className="btn">Google Search</button>
-          <button onClick={search} className="btn">I'm Feeling Lucky</button>
+          <button onClick={search} className="btn">I&apos;m Feeling Lucky</button>
           
         </div>
 
